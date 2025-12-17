@@ -21,7 +21,7 @@ public class PasswortTester_main {
 		
 		
 		
-		for(int i = 0; i < name.length() - 1; i++) {
+		for(int i = 0; i < name.length(); i++) {
 			if(name.length() <= 7) {
 			conditionLength = false;
 			} else {
